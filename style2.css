@@ -77,6 +77,7 @@
 	width: 30%;
 	text-align: center;
 	color: #fff;
+
 }
 .heading h1{
 	font-size: 40px;
@@ -104,6 +105,9 @@
 	display: inline;
 	text-align: center;
 	border-radius: 12px;
+	position: absolute;
+	top: 550px;
+	left: 500px;
 
 }
 .places h2{
@@ -230,4 +234,64 @@ h2{
 	top: 80px;
 	
 } 
+h3{
+	font-size: 2.1rem;
+	line-height: 1.4;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 45%;
+	top: 13%;
+}
+.slider{
+	overflow: hidden;
+	height: 400px;
+}
+.slider figure div{
+	float: left;
+	width: 20%;
+}
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s ravi infinite;
+}
+.glug{
+	width: 300px; 
+	height: 250px; 
+	border-radius: 12px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 
+}
+
+.rich{
+	position: absolute;
+	top: -250%;
+	left: -33%;
+	width: 350px;
+	height: 250px;
+}
+@keyframes ravi{
+	0%{ left: 0%;}
+
+	10%{left: -200%;}
+
+	20%{left: -200%;}
+}
+.gif{
+	border-radius: 30px;
+	box-shadow: 0 8px 40px white; 
+	position: absolute;
+	top: 350px;
+	left: 850px;
+	width: 500px;
+	height: 300px;
+}
